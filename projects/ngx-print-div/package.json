@@ -1,0 +1,27 @@
+{
+  "name": "ngx-print-div",
+  "version": "1.0.1",
+  "peerDependencies": {
+    "@angular/common": "^15.1.0",
+    "@angular/core": "^15.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "author": {
+    "name": "Fal",
+    "email": "falguni4782@gmail.com"
+  },
+  "keywords": [
+    "print",
+    "angular",
+    "library",
+    "print-div",
+    "print-by-id",
+    "directive",
+    "dependency",
+    "angular-print",
+    "print-div-by-id"
+  ]
+}

@@ -1,6 +1,6 @@
-# NgxPrintDiv
+# ngx-print-div
 
-NgxPrintDiv is a simple Angular library that allows you to print HTML content by specifying its ID. It provides a directive that can be added to any HTML element to enable printing functionality.
+Ngx-Print-Div is a simple Angular library that allows you to print HTML content by specifying its ID. It provides a directive that can be added to any HTML element to enable printing functionality.
 
 ## Installation
 
