@@ -29,7 +29,6 @@ export class NgxPrintDivService {
 
     document.head.appendChild(style);
 
-    // Hide all elements except the div copy
     let elements = document.body.children;
     for (var i = 0; i < elements.length; i++) {
       if (elements[i] !== divCopy) {
@@ -50,7 +49,6 @@ export class NgxPrintDivService {
 
     document.head.removeChild(style);
 
-    // Restore the display of all elements
     for (var i = 0; i < elements.length; i++) {
       elements[i].classList.remove('hidden');
     }
@@ -68,7 +66,6 @@ export class NgxPrintDivService {
       return;
     }
 
-    // Retrieve all CSS styles
     const styles = this.getAllStyles();
     const mediaQueryStyles = this.getMediaQueryStyles();
     let additionalStyle = document.createElement('style');
@@ -150,7 +147,6 @@ export class NgxPrintDivService {
           for (let j = 0; j < cssRules.length; j++) {
             const rule = cssRules[j];
             if (rule instanceof CSSMediaRule) {
-              // Check if it's a media rule
               mediaQueryStyles.push(rule.cssText);
             }
           }
